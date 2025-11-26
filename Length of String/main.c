@@ -4,7 +4,7 @@
 
 int main()
 {
-    char name[30];
+    char name[50];
 
     printf("Enter a string: ");
     fgets(name, sizeof(name), stdin); // Read user input including spaces
@@ -16,3 +16,4 @@ int main()
 
     return 0;
 }
+
